@@ -1,0 +1,72 @@
+{
+  "palabras": [
+    {
+      "id": "1",
+      "palabra": "audio"
+    },
+    {
+      "id": "2",
+      "palabra": "carro"
+    },
+    {
+      "id": "3",
+      "palabra": "casas"
+    },
+    {
+      "id": "4",
+      "palabra": "adios"
+    },
+    {
+      "id": "5",
+      "palabra": "locos"
+    },
+    {
+      "id": "6",
+      "palabra": "verde"
+    },
+    {
+      "id": "7",
+      "palabra": "pared"
+    },
+    {
+      "id": "8",
+      "palabra": "playa"
+    },
+    {
+      "id": "9",
+      "palabra": "barco"
+    },
+    {
+      "id": "10",
+      "palabra": "cielo"
+    },
+    {
+      "id": "11",
+      "palabra": "reloj"
+    },
+    {
+      "id": "12",
+      "palabra": "mesas"
+    }
+  ],
+  "niveles": [
+    {
+      "id": "1",
+      "name": "Fácil",
+      "opc": 8
+    },
+    {
+      "id": "2",
+      "name": "Normal",
+      "opc": 6
+    },
+    {
+      "id": "3",
+      "name": "Difícil",
+      "opc": 3
+    }
+  ],
+  "jugadores": [
+   
+  ]
+}

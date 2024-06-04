@@ -1,0 +1,27 @@
+<!-- records.component.html -->
+<div class="Desempeños-container">
+    <h2 class="titulo">Top 5 Mejores Desempeños</h2>
+    <div class="tabla-contenedor">
+      <table class="tabla-Desempeños">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+             <th>Intentos</th>
+            <th>Tiempo (segundos)</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let record of mejoresTiempos">
+            <td>{{ record.nombre }}</td>
+            <td>{{ record.correo }}</td>
+            <td>{{ record.intentos }}</td>
+            <td>{{ record.tiempo }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  

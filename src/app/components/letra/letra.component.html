@@ -1,0 +1,10 @@
+<input
+  class="custom"
+  [ngClass]="{'verde': color === 'acierto', 'naranja': color === 'casi', 'gris': color === 'fallo' , 'flip': flip}"
+  [maxlength]="1"
+  [(ngModel)]="opcion"
+  [disabled]="disabled">
+
+
+
+
